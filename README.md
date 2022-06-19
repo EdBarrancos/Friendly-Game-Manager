@@ -1,29 +1,30 @@
-# Enunciado do Projecto 2 - IAED 2019/20
+# Friendly Game Manager
 
-## Data de entrega: 25 de Maio de 2020, às 23h59m
+For the class of Introduction to Algorithms and Data Structures
 
-## LOG alterações
+25th of May of 2020
 
-## 1. Introdução
+**Author:** Eduardo Barrancos
 
-O objectivo deste projeto é o desenvolvimento, em linguagem C, de um sistema de
-gestão de uma base de dados de jogos de futebol amigáveis.
-A interacção com o programa deverá ocorrer através de um
-conjunto de linhas compostas por uma letra (comando) e um número de argumentos
-dependente do comando a executar. Os possíveis comandos são listados na tabela
-seguinte e indicam as operações a executar.
+## 1. Introduction
 
-| Comando | Acção |
+The goal of this projects is the development, using C language, of a management system of a friendly soccer game's data base.
+
+The interaction with the program occurs through commands inserted in the command line.
+
+Available commands:
+
+| Command | Action |
 |:---:|:---|
-| __a__ | Adiciona um novo jogo. |
-| __A__ | Adiciona uma nova equipa. |
-| __l__ | Lista todos os jogos pela ordem em que foram introduzidos. |
-| __p__ | Procura um jogo. |
-| __P__ | Procura uma equipa. |
-| __r__ | Apaga um jogo. |
-| __s__ | Altera a pontuação (_score_) de um jogo. |
-| __g__ | Encontra as equipas que venceram mais jogos.
-| __x__ | Termina o programa. |
+| __a__ | Adds a new game. |
+| __A__ | Adds a new team. |
+| __l__ | Lists all games sorted by when they were introduced. |
+| __p__ | Search for a game. |
+| __P__ | Search for a team. |
+| __r__ | Deletes a game. |
+| __s__ | Changes the score of a game. |
+| __g__ | Find the teams that won the most games. |
+| __x__ | End the program. |
 
 ## 2. Especificação do problema
 
